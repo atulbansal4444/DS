@@ -29,7 +29,7 @@ Expected Auxiliary Space: O(n)
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Solution {
+class LeadersInAnArray {
     // Function to find the leaders in the array.
     static ArrayList<Integer> leaders(int arr[], int n) {
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -52,4 +52,5 @@ class Solution {
         Collections.reverse(list);
         return list;
     }
+ //add main method
 }
