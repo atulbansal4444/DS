@@ -3,7 +3,6 @@ Given an array A of n positive numbers. The task is to find the first Equilibium
 Equilibrium Point in an array is a position such that the sum of elements before it is equal to the sum of elements after it.
 
 Example 1:
-
 Input: 
 n = 5 
 A[] = {1,3,5,2,2} 
@@ -15,7 +14,6 @@ elements after it (2+2).
  
 
 Example 2:
-
 Input:
 n = 1
 A[] = {1}
@@ -65,6 +63,6 @@ class Solution {
                 return i + 1;
         }
         return -1;
-
     }
+ // add main to help others to test 
 }
